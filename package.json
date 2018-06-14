@@ -24,6 +24,10 @@
   "bugs": {
     "url": "https://github.com/marinko-peso/django-apps-jest-mapper/issues"
   },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
   "homepage": "https://github.com/marinko-peso/django-apps-jest-mapper#readme",
   "devDependencies": {
     "del-cli": "^1.1.0",
