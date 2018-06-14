@@ -1,6 +1,6 @@
 {
   "name": "django-apps-jest-mapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Automatically discovery django apps and map jest names for them.",
   "main": "index.js",
   "scripts": {
