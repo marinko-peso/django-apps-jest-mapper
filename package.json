@@ -1,0 +1,39 @@
+{
+  "name": "django-apps-jest-mapper",
+  "version": "0.0.0",
+  "description": "Automatically discovery django apps and map jest names for them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "release": "np",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinko-peso/django-apps-jest-mapper.git"
+  },
+  "keywords": [
+    "django",
+    "apps",
+    "jest",
+    "mapper",
+    "alias"
+  ],
+  "author": "Marinko Peso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marinko-peso/django-apps-jest-mapper/issues"
+  },
+  "homepage": "https://github.com/marinko-peso/django-apps-jest-mapper#readme",
+  "devDependencies": {
+    "del-cli": "^1.1.0",
+    "eslint": "^4.19.1",
+    "eslint-config-semistandard": "^12.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jest": "^23.1.0"
+  }
+}
